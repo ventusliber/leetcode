@@ -19,13 +19,12 @@ public class Q01 {
 	}
 
 	public static void main(String[] args) {
-		int[] nums = {3,2,4};
+		int[] nums = { 3, 2, 4 };
 		int target = 6;
-		
+
 		int[] result = new int[2];
-		result = twoSum(nums,target);
-		for(int i=0;i<result.length;i++)
-		{
+		result = twoSum(nums, target);
+		for (int i = 0; i < result.length; i++) {
 			System.out.println(result[i]);
 		}
 
