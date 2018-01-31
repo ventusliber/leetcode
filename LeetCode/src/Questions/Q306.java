@@ -40,7 +40,7 @@ public class Q306 {
 	}
 
 	public static void main(String[] args) {
-		String num = "21173";
+		String num = "19901200";
 		boolean result = isAdditiveNumber(num);
 		System.out.println(result);
 	}
